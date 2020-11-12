@@ -1,0 +1,11 @@
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+RewriteRule ^login$ login.php [L]
+RewriteRule ^get-a-quote$ get-a-quote.php [L]
+RewriteRule ^thankyou$ thankyou.php [L]
+RewriteRule ^funeral-detail$ funeral_detail.php [L]
+RewriteRule ^logout$ logout.php [L]
+RewriteRule ^index$ index.php [L]
+

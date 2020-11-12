@@ -1,0 +1,86 @@
+.step-app > .step-steps {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.step-app > .step-steps > li {
+  list-style: none;
+  flex: 1;
+}
+.step-app > .step-steps > li:last-child a {
+  border: none;
+}
+.step-app > .step-steps > li > a {
+  display: block;
+  padding: 10px 0;
+  background-color: #f3f7fa;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 28px;
+  margin-right: 15px;
+  letter-spacing: -0.211765px;
+  color: #3D5567;
+  font-weight: 700;
+}
+.step-app > .step-steps > li > a > .number {
+    padding: 0;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #008FE0;
+}
+.step-app > .step-steps > li > a:hover {
+  background-color: #f3f7fa;
+}
+.step-app > .step-steps > li.active a {
+  border-bottom: 3px solid #008FE0;
+}
+.step-app > .step-steps > li.error a {
+  border-bottom: 3px solid #e7505a;
+}
+.step-app > .step-steps > li.done a {
+  border-bottom: 3px solid #3cb371;
+}
+.step-app > .step-content {
+  /* border: 1px solid #e5e5e5; */
+  padding: 10px;
+  border-top: 0;
+}
+.step-app > .step-content > .step-tab-panel {
+  display: none;
+}
+.step-app > .step-content > .step-tab-panel.active {
+  display: block;
+}
+.step-app > .step-footer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.step-app > .step-footer > .step-btn {
+  padding: 4px 16px;
+  color: #333;
+  text-decoration: none;
+  background: #e5e5e5;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.getquote {
+  max-width: 85%;
+}
+@media (max-width: 968px){
+.getquote {
+    max-width: 100% !important;
+}
+}
+label.error {
+  color: red;
+}
+/*# sourceMappingURL=jquery-steps.css.map */
